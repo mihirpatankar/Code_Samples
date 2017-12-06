@@ -6,3 +6,16 @@
 * Recursive Integer Multiplication --> O(n<sup>2</sup>)
 * Karatsuba Multiplication --> O(n<sup>1.59</sup>)
 
+## Binary Search Trees
+* Check Same Tree --> O(n)
+* Check Symmetry --> O(n)
+* Maximum Depth of BST --> O(n)
+
+## Stack
+* Check Valid Paranthesis --> O(n)
+
+## Arrays
+* Remove Element --> O(n)
+* Remove Duplicates from Sorted Array --> O(n)
+* Two Sum --> O(n)
+
