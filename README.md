@@ -11,6 +11,7 @@
 * Check Symmetry --> O(n)
 * Maximum Depth of BST --> O(n)
 * Recursive Traversal (inOrder, preOrder, postOrder) --> O(n)
+* Validate BST --> O(n)
 
 ## Stack
 * Check Valid Paranthesis --> O(n)
