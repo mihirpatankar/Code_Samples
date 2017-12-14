@@ -6,6 +6,13 @@
 * Recursive Integer Multiplication --> O(n<sup>2</sup>)
 * Karatsuba Multiplication --> O(n<sup>1.59</sup>)
 
+##Linked Lists
+* Print Linked List --> O(n)
+* Append Node --> O(n)
+* Delete Node at end --> O(n)
+* Prepend Node --> O(1)
+* Delete Node at head --> O(1)
+
 ## Binary Search Trees
 * Check Same Tree --> O(n)
 * Check Symmetry --> O(n)
