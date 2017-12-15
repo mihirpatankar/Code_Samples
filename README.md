@@ -12,6 +12,8 @@
 * Delete Node at end --> O(n)
 * Prepend Node --> O(1)
 * Delete Node at head --> O(1)
+* Reverse Linked List --> O(n)
+* Detect Cycle--> O(n)
 
 ## Binary Search Trees
 * Check Same Tree --> O(n)
