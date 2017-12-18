@@ -3,8 +3,6 @@
 * Selection Sort --> O(n<sup>2</sup>)
 * Insertion Sort --> O(n<sup>2</sup>)
 * Binary Search (Iterative and Recursive) --> O(logn)
-* Recursive Integer Multiplication --> O(n<sup>2</sup>)
-* Karatsuba Multiplication --> O(n<sup>1.59</sup>)
 
 ## Linked Lists
 * Print Linked List --> O(n)
@@ -42,3 +40,7 @@ n=number of words, l=average length of each word
 * Insert words --> O(l x n) 
 * Prefix Search --> O(l)
 * Complete Word Search --> O(l)
+
+## Others
+* Recursive Integer Multiplication --> O(n<sup>2</sup>)
+* Karatsuba Multiplication --> O(n<sup>1.59</sup>)
