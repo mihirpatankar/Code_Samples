@@ -3,12 +3,12 @@ package my_own_trie;
 public class test {
 	public static void main(String args[]) {
 		Trie trie = new Trie();
-		trie.insertWord("abcd");
-		trie.insertWord("abcdef");
-		trie.insertWord("abc");
 		trie.insertWord("lmno");
-		System.out.println("Prefix Search :" + trie.prefixSearch("ab"));
-		System.out.println("Word Search :" + trie.wordSearch("lmno"));
-		System.out.println("Word Search :" + trie.wordSearch("abcde"));
+		trie.insertWord("abcdefgh");
+		trie.insertWord("abcdxyz");
+		System.out.println("Word Search :" + trie.deleteWord("lmno"));
+		System.out.println("Word Search :" + trie.wordSearch("abcdefgh"));
+		System.out.println("Word Search :" + trie.wordSearch("abcdxyz"));
+		System.out.println("Word Search :" + trie.prefixSearch("abcd"));
 	}
 }
