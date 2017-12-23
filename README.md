@@ -40,6 +40,7 @@ n=number of words, l=average length of each word
 * Insert words --> O(l x n) 
 * Prefix Search --> O(l)
 * Complete Word Search --> O(l)
+* Delete Word --> O(l x n)
 
 ## Others
 * Recursive Integer Multiplication --> O(n<sup>2</sup>)
