@@ -71,19 +71,23 @@ public class Trie {
 			return true;
 		}
 		Node backtrack = stack.pop();
+		backtrack.setEndofWord(false);
+		
 		int index = str.length()-1;
+		
 		while(!stack.isEmpty()) {
-			if(backtrack.children.size()==0) {
+			if(backtrack.children.size()==0 && !backtrack.isEndofWord) {
 				backtrack = stack.pop();
 				backtrack.children.remove(str.charAt(index));
 				System.out.println("Deleted: " + str.charAt(index));
 				index--;
 			}
 			else {
+				stack=null;
 				return true;
 			}
 		}
-		
+		stack=null;
 		return true;
 	}
 }
